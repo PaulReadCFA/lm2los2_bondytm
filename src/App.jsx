@@ -229,9 +229,7 @@ export default function App() {
         </Card>
       </main>
 
-      <footer className="max-w-6xl mx-auto px-4 py-8 text-xs text-black/60">
-        Built with React + Tailwind + Recharts. CFA educational tool.
-      </footer>
+
     </div>
   );
 }
