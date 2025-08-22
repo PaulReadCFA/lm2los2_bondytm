@@ -219,7 +219,7 @@ export default function App() {
                       yAxisId="right"
                       orientation="right"
                       label={{ value: 'Yield (%)', angle: 90, position: 'insideRight' }}
-                      tickFormatter={(value) => `${value.toFixed(1)}%`}
+                      tickFormatter={(value) => `${value.toFixed(1)}`}
                       domain={[0, Math.ceil(bond.bey * 100 * 1.2)]}
                     />
                     <Tooltip 
