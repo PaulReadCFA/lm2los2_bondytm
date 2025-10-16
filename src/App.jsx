@@ -211,7 +211,7 @@ function BondChart({ bond, inputs }) {
             <YAxis 
               yAxisId="right"
               orientation="right"
-              label={{ value: 'Yield (%)', angle: 90, position: 'insideRight' }}
+              label={{ value: 'Yield (%)', angle: 90, position: 'insideRight',dx:20 }}
               tickFormatter={(value) => `${value.toFixed(1)}%`}
               domain={[0, Math.ceil(bond.bey * 100 * 1.2)]}
             />
